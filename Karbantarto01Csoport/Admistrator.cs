@@ -21,5 +21,10 @@ namespace Karbantarto01Csoport
         {
             System.Environment.Exit(0);
         }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Rendszertervezés korsz. módszerei: 1. Csoport\n\n Szerzők:\n\n Stéber Gábor\n Lehner Béla", "Informáciás ablak", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
     }
 }
